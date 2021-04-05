@@ -12,14 +12,14 @@ body{
 
 /*header css*/
 .myTinyNav{
-	padding: 20px 0;
+	padding:0;
 }
 .bg-nav-tiny{
 	background-color: #302F2D;
 }
 .navbar-brand{
-	background-color:#fff;
-	border-radius:5px;
+	margin:0;
+	padding:0;
 }
 .navbar-toggler{
 	background-color: #fff!important;
@@ -28,7 +28,7 @@ body{
 	font-size: 20px;
     font-weight: 700;
     color: #fff!important;
-    padding: 0 35px!important;
+    padding: 0 20px!important;
 }
 .menu li:last-child a{
 	padding-right: 0!important;
