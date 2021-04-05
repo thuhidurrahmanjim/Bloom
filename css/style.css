@@ -1,0 +1,146 @@
+/*general css*/
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap');
+
+body{
+	font-family: 'PT Sans', sans-serif;
+}
+.title{
+	font-size: 32px;
+	font-weight: 700;
+	color: #000;
+}
+
+/*header css*/
+.myTinyNav{
+	padding: 20px 0;
+}
+.bg-nav-tiny{
+	background-color: #302F2D;
+}
+.navbar-brand{
+	background-color:#fff;
+	border-radius:5px;
+}
+.navbar-toggler{
+	background-color: #fff!important;
+}
+.menu li a{
+	font-size: 20px;
+    font-weight: 700;
+    color: #fff!important;
+    padding: 0 35px!important;
+}
+.menu li:last-child a{
+	padding-right: 0!important;
+}
+.menu li a:hover{
+	text-decoration: underline;
+}
+
+/*slider css*/
+.slider{
+	background-color: #F1EFF0;
+}
+.slider-content{
+	margin-top:50px;
+	padding-right: 57px;
+}
+.slider-content .btn{
+	background-color: #F79E00;
+}
+
+/*features css*/
+.features{
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+.fetures-title{
+	margin-bottom: 60px;
+}
+.fetures-title h1{}
+.single-features{
+	margin-bottom: 20px;
+}
+.features-img{
+	width: 100%;
+	height: 200px;
+	background-color: #000;
+	border-radius: 5px;
+}
+.single-features h2{}
+.single-features p{
+	text-align: justify;
+}
+.single-features .btn{
+	background-color: #F79E00;
+}
+/*contact section css*/
+.contact{
+	background-color: #000;
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+.contact-title{
+	margin-bottom: 60px;
+}
+.contact-title h1{
+	color: #fcdb00;
+}
+.contact-title p{
+	font-size: 20px;
+	color: #898989;
+}
+.my-form{
+	width: 100%;
+	padding: 15px;
+	border-radius: 5px;
+}
+.btn-nav-contact{
+	background-color: #fcdb00;
+	width: 100%;
+	font-weight: 700;
+	padding: 15px;
+}
+.contact-social-icon{
+	margin-top: 70px;
+}
+.contact-social-icon i{
+	font-size: 42px;
+	color: #fcdb00;
+	transition: 0.3s;
+}
+.contact-social-icon i:hover{
+	transform: scale(1.3)!important;
+}
+/*contact section css*/
+/*footer css*/
+.footer{
+	background-color: #302F2D;
+	color: #fff;
+	padding-bottom: 50px;
+	padding-top: 20px;
+}
+.l-p-content{
+	margin-bottom: 0;
+}
+.l-p-a{
+	text-decoration: none;
+	color: #fff;
+}
+.f-l-img{
+	width: 100%;
+	height: 50px;
+	background-color: #fff;
+	border-radius: 5px;
+	margin-top: 10px;
+}
+.f-l-content{}
+.f-l-content h5{
+	font-size: 16;
+}
+.f-l-content p{
+	font-size: 14px;
+	margin-bottom: 0!important;
+}
+
+/*footer css*/
